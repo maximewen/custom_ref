@@ -1,1 +1,2 @@
 # custom_ref
+The mixed hg38-mm10 genome was made by concatenate the fasta files of human genome (hg38) and mouse genome (mm10), with chromosome names of mouse genome modified to have the prefix “mm10_”. The concatenated fasta file was used to bulid bowtie2 reference using bowtie-build (Langmead, Trapnell et al. 2009). The fasta index file was generated using samtools faidx (Li, Handsaker et al. 2009).
